@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box {
+    position: fixed;
+    background-image: url(./../img/img-London-LG-2x.jpg);
+    height: 695px;
+    width: 1400px;
+    background-repeat: no-repeat;
+    background-size: 1370px;
+    margin-left: -83px;
+    margin-top: -8px;
+}
+
+.box-2 {
+    background-color: rgba(241, 207, 12, 0.822);
+    position: fixed;
+    border: 1px solid rgb(224, 224, 100);
+    width: 550px;
+    height: 850px;
+    transform: rotate(18deg);
+    margin-left: 870px;
+    margin-top: -50px;
+}
+
+.mini-boss {
+    display: flex;
+    transform: rotate(-18deg);
+}
+
+.mini-boss h2 {
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.mini-boss svg {
+    width: 27px;
+    height: 27px;
+    margin-top: 48.5px;
+    margin-left: 12px;
+}
+
+.hash2 {
+    line-height: 45px;
+    flex-wrap: wrap;
+    opacity: 0.9;
+    width: 340px;
+    transform: rotate(-18deg);
+    margin-top: 20px;
+    margin-left: 125px;
+    font-size: 40px;
+    letter-spacing: 0.6px;
+    word-spacing: 4px;
+}
+
+.hash {
+    opacity: 0.9;
+    font-size: 59px;
+    margin-left: 350px;
+    margin-top: 290px;
+    transform: rotate(-18deg);
+}
+
+.box-3 {
+    display: flex;
+    transform: rotate(-18deg);
+}
+
+.box-3 svg {
+    margin-left: 360px;
+    margin-top: 40px;
+}
+
+.box-3 span {
+    margin-top: 39px;
+    margin-left: 10px;
+    font-size: 19px;
+}
+
